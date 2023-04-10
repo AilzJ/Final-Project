@@ -1,0 +1,147 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+#nav_bar_left {
+  margin: 10px;
+  padding: 0;
+}
+#nav_bar_right {
+  margin: 10px;
+  padding: 0;
+}
+#nav_bar_left li {
+  display: inline-block;
+  font-size: small;
+}
+
+#nav_bar_right li {
+  display: inline-block;
+  font-size: small;
+}
+
+.nav-links {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 7px;
+}
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#nav_bar_right #sign_in {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  background-color: rgb(74, 124, 217);
+  color: white;
+  padding: 7px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+#sign_in:hover {
+  box-shadow: 1px 1px 5px grey;
+}
+
+.google {
+  display: block;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 20px;
+}
+
+.google-image {
+  height: 90px;
+  width: 285px;
+}
+.google #google_link {
+  height: 20px;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.form {
+  text-align: center;
+}
+
+#form_search {
+  height: 25px;
+  width: 500px;
+  padding: 8px 15px;
+  border-radius: 50px;
+  border-color: #404040;
+  border-width: 0px;
+  box-shadow: 1px 1px 4px rgb(181, 181, 181);
+}
+
+.buttons {
+  text-align: center;
+  margin: 35px;
+}
+
+.button-internal {
+  padding: 8px 18px;
+  margin: 4px;
+  border-width: 0;
+  background-color: rgb(242, 242, 242);
+  color: grey;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.footer li {
+  display: inline-block;
+  font-size: small;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav-links {
+  color: rgb(103, 103, 103);
+}
+
+footer {
+  background-color: rgb(242, 242, 242);
+  /* position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0; */
+}
+
+ul {
+  padding-inline-start: 12px;
+}
+
+#footer-bar-right {
+  margin-right: 10px;
+}
+
+#footer-bar-left {
+  margin-right: 10px;
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  height: 10%;
+}
+main {
+  height: 66%;
+}
